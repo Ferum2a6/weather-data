@@ -16,11 +16,11 @@ def weather():
     humidity = w.humidity
 
     data = f"""
-Temperature: {temp}°С
-Feels like: {temp_feelslike}°С
+Температура: {temp}°С
+Ощущается как: {temp_feelslike}°С
 
-Humidity: {humidity}%
-Weather status: {detailed_status}"""
+Влажность: {humidity}%
+Статус погоды: {detailed_status}"""
     print(data)
     
 weather()
